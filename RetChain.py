@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
 
-from llm import API_KEY
 load_dotenv()
 
 from langchain_openai import ChatOpenAI
